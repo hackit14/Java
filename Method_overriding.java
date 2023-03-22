@@ -8,7 +8,7 @@ class dog{
         System.out.println("Running...");
     }
 }
-class cat{
+class cat extends dog{
     void walk()
     {
         System.out.println("Meows...");
@@ -26,14 +26,9 @@ public class Method_overriding {
 
     public static void main(String args[])
     {
-        dog dg = new dog();
-        cat ct = new cat();
-        walk wlk = new walk();
+        dog obj = new walk();
 
-        wlk.walk();
-        dg.walk();
-        dg.run();
-        ct.walk();
+        obj.walk();
     }
     
 }
