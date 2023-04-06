@@ -5,7 +5,7 @@ public class Array_list {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> str = new ArrayList<>();
 
-        System.out.println("1.Create\n2.Display\n3.Iterate using For Each\n4.Iterate using HasNext()\n5.AddAll\n6.RemoveAll\n7.RetainAll");
+        System.out.println("1.Create\n2.Display\n");
         System.out.print("Enter Your Option: ");
         int option = sc.nextInt();
 
